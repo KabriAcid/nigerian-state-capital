@@ -2,6 +2,10 @@
 
 A simple JavaScript application that displays the capital city of a selected Nigerian state. This project includes an HTML file with a select form and a JavaScript file that populates the form and displays the corresponding capital city when a state is selected.
 
+### Author
+BSC. Software Engineering (Al-Qalam University Katsina) 
+-- Abdullahi Abubakar Kabri (Kabri Acid)
+
 ## Features
 
 - Dropdown menu to select a Nigerian state
@@ -10,6 +14,9 @@ A simple JavaScript application that displays the capital city of a selected Nig
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ### Prerequisites
 
