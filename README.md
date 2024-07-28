@@ -20,4 +20,4 @@ You need a web browser to view the HTML file.
 1. Clone the repository
 
 ```sh
-git clone https://github.com/KabriAcid/nigeria-states-capitals.git
+git clone https://github.com/KabriAcid/nigerian-state-capital.git
