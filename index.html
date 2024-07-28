@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nigerian States and Capitals</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script defer src="state-capital.js"></script>
+</head>
+
+<body class="bg-sky-100 min-h-screen flex items-center justify-center">
+  <div class="container mx-auto bg-white p-8 rounded shadow-lg max-w-lg">
+    <h1 class="text-xl font-bold text-center mb-4">Select a State to See Its Capital</h1>
+    <form id="locationForm">
+      <!-- State of Origin  -->
+      <div class="w-full mb-4">
+        <label class="block text-gray-700 mb-2">State of Origin</label>
+        <div class="relative">
+          <select required name="state" id="state" class="select-state block appearance-none w-full bg-white border border-sky-500 text-gray-700 py-2 px-4 rounded leading-tight focus:outline-none focus:ring-2 focus:ring-sky-500">
+            <option value="" selected="selected">-- State --</option>
+            <option value="Abia">Abia</option>
+            <option value="Adamawa">Adamawa</option>
+            <option value="Akwa Ibom">Akwa Ibom</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Bauchi">Bauchi</option>
+            <option value="Bayelsa">Bayelsa</option>
+            <option value="Benue">Benue</option>
+            <option value="Borno">Borno</option>
+            <option value="Cross River">Cross River</option>
+            <option value="Delta">Delta</option>
+            <option value="Ebonyi">Ebonyi</option>
+            <option value="Edo">Edo</option>
+            <option value="Ekiti">Ekiti</option>
+            <option value="Enugu">Enugu</option>
+            <option value="Gombe">Gombe</option>
+            <option value="Imo">Imo</option>
+            <option value="Jigawa">Jigawa</option>
+            <option value="Kaduna">Kaduna</option>
+            <option value="Kano">Kano</option>
+            <option value="Katsina">Katsina</option>
+            <option value="Kebbi">Kebbi</option>
+            <option value="Kogi">Kogi</option>
+            <option value="Kwara">Kwara</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Nasarawa">Nasarawa</option>
+            <option value="Niger">Niger</option>
+            <option value="Ogun">Ogun</option>
+            <option value="Ondo">Ondo</option>
+            <option value="Osun">Osun</option>
+            <option value="Oyo">Oyo</option>
+            <option value="Plateau">Plateau</option>
+            <option value="Rivers">Rivers</option>
+            <option value="Sokoto">Sokoto</option>
+            <option value="Taraba">Taraba</option>
+            <option value="Yobe">Yobe</option>
+            <option value="Zamfara">Zamfara</option>
+            <option value="FCT">FCT</option>
+          </select>
+          
+        </div>
+      </div>
+      <!-- Local Government Area  -->
+      <div class="w-full mb-4">
+        <label class="block text-gray-700 mb-2">Local Government Area</label>
+        <div class="relative">
+          <select name="lga" id="lga" class="select-lga block appearance-none w-full bg-white border border-sky-500 text-gray-700 py-2 px-4 rounded leading-tight focus:outline-none focus:ring-2 focus:ring-sky-500" required>
+            <option value="">LGA</option>
+          </select>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
