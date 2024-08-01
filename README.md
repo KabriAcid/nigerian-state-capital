@@ -22,6 +22,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 You need a web browser to view the HTML file.
 
+### Live Test
+Click on this link to test live https://kabriacid.github.io/nigerian-state-capital/
+
 ### Installation
 
 1. Clone the repository
