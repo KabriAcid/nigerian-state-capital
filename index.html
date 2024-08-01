@@ -5,19 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nigerian States and Capitals</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
   <script defer src="state-capital.js"></script>
 </head>
 
-<body class="bg-sky-100 min-h-screen flex items-center justify-center">
-  <div class="container mx-auto bg-white p-8 rounded shadow-lg max-w-lg">
+<body>
+  <div>
     <h1 class="text-xl font-bold text-center mb-4">Select a State to See Its Capital</h1>
     <form id="locationForm">
       <!-- State of Origin  -->
       <div class="w-full mb-4">
         <label class="block text-gray-700 mb-2">State of Origin</label>
         <div class="relative">
-          <select required name="state" id="state" class="select-state block appearance-none w-full bg-white border border-sky-500 text-gray-700 py-2 px-4 rounded leading-tight focus:outline-none focus:ring-2 focus:ring-sky-500">
+          <select required name="state" id="state" class="select-state">
             <option value="" selected="selected">-- State --</option>
             <option value="Abia">Abia</option>
             <option value="Adamawa">Adamawa</option>
